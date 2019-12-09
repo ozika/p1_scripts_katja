@@ -1,0 +1,9 @@
+function[x, y] = transform_sq_to_coords(square)
+x(1) = square(1);
+y(1) = square(2);
+x(2) = x(1) + (square(3)-square(1));
+y(2) = y(1);
+x(3) = x(2);
+y(3) = y(1)+(square(4)-square(2));
+x(4) = x(1);
+y(4) = y(3);
